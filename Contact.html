@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="index-style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    
+    <!-- Add this -->
+    <link rel="preload" href="images/home.jpg" as="image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+       <style>
+        /* Base theme 
+        body {
+            background-color: #ffffff;
+            color: #000000;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        /* Dark mode class 
+        body.dark-mode {
+            background-color: #121212;
+            color: #f1f1f1;
+        }
+
+        /* NAVIGATION BAR STYLES 
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1vw 8vw;
+            background-color: aliceblue;
+            box-shadow: 2px 2px 10px rgb(0 0 0 / 0.15);
+            position: fixed;
+            width: 100%;
+            z-index: 999;
+        }
+
+        nav > a,
+        nav > button.theme-toggle {
+            display: inline-flex;
+            align-items: center;
+        }
+
+        nav > a {
+            margin-right: 1rem;
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: rgb(21, 21, 100);
+            text-decoration: none;
+        }
+
+        .theme-toggle {
+            padding: 0.4rem 0.8rem;
+            font-size: 0.9rem;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            background: #0077cc;
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+
+        .theme-toggle:hover {
+            background: #005fa3;
+        }
+
+        nav .navigation {
+            display: flex;
+            align-items: center;
+        }
+
+        nav .navigation ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav .navigation ul li {
+            margin-left: 30px;
+        }
+
+        nav .navigation ul li a {
+            text-decoration: none;
+            color: rgb(21, 21, 100);
+            font-weight: 500;
+            font-size: 16px;
+            transition: 0.3s ease;
+        }
+
+        nav .navigation ul li a.active,
+        nav .navigation ul li a:hover {
+            color: #FDC93B;
+        }
+
+        /* Responsive menu button 
+        #menu-btn {
+            display: none;
+        }
+
+        /* Dark mode form inputs (if any) 
+        body.dark-mode input,
+        body.dark-mode textarea {
+            background-color: #333;
+            color: #fff;
+            border: 1px solid #555;
+        } */
+    </style>
+
+
+</head>
+
+<body>
+    <!--Navigation Bar-->
+
+    <nav>
+        <a href="index.html"><p>MWANA MFUMU</p></a>
+
+                        <!-- Dark Mode Toggle Button 
+        <button id="theme-toggle" class="theme-toggle">🌙 Dark Mode</button>  -->
+
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a  href="index.html">Home</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a class="active" href= "#">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu bar icon.png" alt="">
+        </div>
+    </nav>
+
+
+    <!--Home-->
+
+    <section id="contact-us">
+        <h2>Contact Us</h2>
+    </section>
+
+    <section id="contact">
+        <div class="getin">
+            <h2>Get in Touch</h2>
+            <p>We're here to assist you with any inquiries or support you may need.</p>
+
+            <div class="getin-details">
+                <h3>Address</h3>
+                <div>
+                    <i class="far fa-home get"></i>
+                    <p>Kitwe, Copperbelt Zambia <br> P.O BOX xxxx</p>
+                </div>
+                <h3>Phone</h3>
+                <div>
+                    <i class="fas fa-phone-alt  get"></i>
+                <p> <a href="tel:+260969221423" class="tracked-phone" 
+                        onclick="gtag('event', 'click', {'event_category': 'Phone', 'event_label': 'Header'});">
+                         (+260) 969 221423
+                         <br>
+                            (+260) 971 940020
+                     </a>
+                    
+                </p>
+                </div>
+                <h3>Email Address</h3>
+                <div>
+                    <i class="fal fa-envelope-open-text get"></i>
+                    <p onclick="sendEmail('mwanamfumucontractors@gmail.com')">mwanamfumucontractors@gmail.com</p>
+                </div>
+                <h3>Follow Us</h3>
+                <div class="pro-links">
+                    <a href="https://web.facebook.com/MwanamfumuCotractorsZambiaLimited/?_rdc=1&_rdr" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/official_gideon_mwanamfumu_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://x.com/Mwanamfumu4/status/1196775664336220160" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://zm.linkedin.com/in/gideon-mulubwa-52b46224b" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="form">
+            <h4>Let's Connect</h4>
+            <p>We would love to hear from you. Please fill out the form below to reach out to us with any inquiries, feedback, or requests.</p>
+            <form id="contact-form">
+                <div class="form-row">
+                    <input type="text" name="name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-col">
+                    <input type="text" name="subject" placeholder="Subject">
+                </div>
+                <div class="form-col">
+                    <textarea name="message" cols="30" rows="8" placeholder="How can we help?"></textarea>
+                </div>
+                <div class="form-col">
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </div>
+        
+
+    </section>
+
+    <section id="map">
+        <iframe src="https://maps.app.goo.gl/2Ex551dR2RcDcfQq7"></iframe>
+    </section>
+    
+
+     <!-- Footer -->
+     <footer>
+        <div class="footer-col">
+            <h3>Our Core Products</h3>
+            <li>PPE</li>
+            <li>Bearings</li>
+            <li>Pumps and Valves</li>
+            <li>Mining Accessories</li>
+        </div>
+        
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Our Services</li>
+            <li>Projects</li>
+            <li>About Us</li>
+            <li>Terms of Service</li>
+        </div>
+        
+        <div class="footer-col">
+            <h3>Our Capabilities</h3>
+            <li>Road Construction</li>
+            <li>Equipment Supply</li>
+            <li>Infrastructure Development</li>
+            <li>Safety and Compliance</li>
+        </div>
+        
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Project Portfolio</li>
+            <li>Industry Insights</li>
+            <li>Expert Team</li>
+            <li>Safety Guidelines</li>
+        </div>
+        
+        <div class="footer-col">
+            <h3>News Letter</h3>
+            <p>You can trust us. We only send important information.</p>
+            <div class="subscribe">
+                <form id="subscribe-form">
+                    <input type="email" name="email" placeholder="Your Email address" required>
+                    <button type="submit" class="yellow">Subscribe</button>
+                </form>
+            </div>
+            
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved || Powered By Paul Bangison Mubanga</p>
+
+            <div class="pro-links">
+                <a href="https://web.facebook.com/MwanamfumuCotractorsZambiaLimited/?_rdc=1&_rdr" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/official_gideon_mwanamfumu_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://x.com/Mwanamfumu4/status/1196775664336220160" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://zm.linkedin.com/in/gideon-mulubwa-52b46224b" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+     </footer>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+      <script>
+        // Navigation menu toggle
+        document.getElementById('menu-btn').addEventListener('click', function () {
+            document.querySelector('nav .navigation ul').classList.add('active');
+        });
+        document.getElementById('menu-close').addEventListener('click', function () {
+            document.querySelector('nav .navigation ul').classList.remove('active');
+        });
+
+        // Initialize EmailJS
+        (function () {
+            emailjs.init("C6XPLs67LBVK_D1sK");
+        })();
+
+        // CONTACT FORM
+    document.getElementById("contact-form").addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      emailjs.sendForm("service_a6gibbz", "template_f323n6d", this)
+        .then(function () {
+          alert("Message sent successfully!");
+          document.getElementById("contact-form").reset();
+        }, function (error) {
+          console.log("FAILED...", error);
+          alert("Failed to send message. Please try again.");
+        });
+    });
+
+    // NEWSLETTER FORM
+     // NEWSLETTER FORM (fixed)
+  document.getElementById("subscribe-form").addEventListener("submit", function (e) {
+    e.preventDefault();
+    emailjs.sendForm("service_a6gibbz", "template_f323n6d", this)
+      .then(function () {
+        alert("✅ Subscribed successfully!");
+        document.getElementById("subscribe-form").reset();
+      }, function (error) {
+        console.error("FAILED...", error);
+        alert("❌ Subscription failed. Please try again.");
+      });
+  });
+    </script>
+</body>
+
+</html>

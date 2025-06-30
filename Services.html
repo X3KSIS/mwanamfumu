@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="index-style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <link rel="preload" href="images/home.jpg" as="image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+       <style>
+        /* Base theme 
+        body {
+            background-color: #ffffff;
+            color: #000000;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        /* Dark mode class 
+        body.dark-mode {
+            background-color: #121212;
+            color: #f1f1f1;
+        }
+
+        /* NAVIGATION BAR STYLES 
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1vw 8vw;
+            background-color: aliceblue;
+            box-shadow: 2px 2px 10px rgb(0 0 0 / 0.15);
+            position: fixed;
+            width: 100%;
+            z-index: 999;
+        }
+
+        nav > a,
+        nav > button.theme-toggle {
+            display: inline-flex;
+            align-items: center;
+        }
+
+        nav > a {
+            margin-right: 1rem;
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: rgb(21, 21, 100);
+            text-decoration: none;
+        }
+
+        .theme-toggle {
+            padding: 0.4rem 0.8rem;
+            font-size: 0.9rem;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            background: #0077cc;
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+
+        .theme-toggle:hover {
+            background: #005fa3;
+        }
+
+        nav .navigation {
+            display: flex;
+            align-items: center;
+        }
+
+        nav .navigation ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav .navigation ul li {
+            margin-left: 30px;
+        }
+
+        nav .navigation ul li a {
+            text-decoration: none;
+            color: rgb(21, 21, 100);
+            font-weight: 500;
+            font-size: 16px;
+            transition: 0.3s ease;
+        }
+
+        nav .navigation ul li a.active,
+        nav .navigation ul li a:hover {
+            color: #FDC93B;
+        }
+
+        /* Responsive menu button 
+        #menu-btn {
+            display: none;
+        }
+
+        /* Dark mode form inputs (if any) 
+        body.dark-mode input,
+        body.dark-mode textarea {
+            background-color: #333;
+            color: #fff;
+            border: 1px solid #555;
+        }  */
+    </style>
+
+</head>
+
+<body>
+    <!--Navigation Bar-->
+
+    <nav>
+        <a href="index.html"><p>MWANA MFUMU</p></a>
+
+                        <!-- Dark Mode Toggle Button 
+        <button id="theme-toggle" class="theme-toggle">🌙 Dark Mode</button>  -->
+
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="#">Services</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href= "Contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu bar icon.png" alt="">
+        </div>
+    </nav>
+
+
+    <!--Home-->
+
+    <section id="about-home">
+        <h2>Services</h2>
+    </section>
+
+    <section id="blog-container">
+        <div class="blogs">
+            <div class="post">
+                <img src="images/PPE_KH-HRO.jpg" alt="">
+                <h3>Personal Protective Equipment(PPE)</h3>
+                <p>
+                    Safety is our priority. We supply top-of-the-line PPE, ensuring your team is always 
+                    protected on-site, meeting industry safety standards, and minimizing risks.
+                </p>
+            </div>
+            <div class="post">
+                <img src="images/Bearing.jpg" alt="">
+                <h3>Bearings</h3>
+                <p>
+                    Keep your machinery running smoothly with our high-quality bearings. Designed for durability 
+                    and efficiency, our bearings are essential for the long-term performance of your equipment.
+                </p>
+            </div>
+            <div class="post">
+                <img src="images/1pneumatics-titlepic.jpg" alt="">
+                <h3>Pneumatics</h3>
+                <p>
+                    Power your tools and machinery with our reliable pneumatic systems. 
+                    We provide and maintain a range of pneumatic components, ensuring your operations run efficiently. 
+                </p>
+            </div>
+            <div class="post">
+                <img src="images/valves-market.png" alt="">
+                <h3>Pumps and Valves</h3>
+                <p>
+                    From fluid management to industrial applications, our pumps and valves are built to last. 
+                    Trust us to supply you with the essential components that keep your projects flowing smoothly.
+                </p>
+            </div>
+            <div class="post">
+                <img src="images/excavator-bucket-wheel-paddles.jpg" alt="">
+                <h3>Mining Accessories
+                </h3>
+                <p>
+                    Equip your mining operations with the best accessories in the industry. 
+                    We offer a variety of tools and safety gear that enhance both 
+                    productivity and safety in the mining sector.
+                </p>
+            </div>
+            <div class="post">
+                <img src="images/office stationery.png" alt="">
+                <h3>Stationery
+                </h3>
+                <p>
+                    Keep your operations organized with our comprehensive range of 
+                    stationery supplies. From planning 
+                    to reporting, we ensure that you have everything 
+                    you need to stay on top of your administrative tasks.
+                </p>
+            </div>
+            <div class="post">
+                <img src="images/drill-bits-promo.jpg" alt="">
+                <h3>Drill Bits and Rigs
+                </h3>
+                <p>
+                    Precision and durability are key in drilling operations. Our selection of drill 
+                    bits and rigs is designed to meet the toughest demands, ensuring your projects 
+                    are executed with accuracy and reliability.
+                </p>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Services</h2>
+            <hr>
+            <p>Electrical & Electronics</p>
+            <a href=""></a>
+            <hr>
+            <p>Civil Construction Works</p>
+            <a href="#"></a>
+            <hr>
+            <p>Office Automtaion Equipment</p>
+            <a href="#"></a>
+            <hr>
+            <p>Hydraulic Hoses & Assemble</p>
+            <a href="#"></a>
+            <hr>
+            <p>Mechanical/Panel Beating</p>
+            <a href="#"></a>
+            <hr>
+            <p>Supplying & General Dealing</p>
+            <a href="#"></a>
+            <hr>
+
+        </div>
+    </section>
+
+     <!-- Footer -->
+     <footer>
+        <div class="footer-col">
+            <h3>Our Core Products</h3>
+            <li>PPE</li>
+            <li>Bearings</li>
+            <li>Pumps and Valves</li>
+            <li>Mining Accessories</li>
+        </div>
+        
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Our Services</li>
+            <li>Projects</li>
+            <li>About Us</li>
+            <li>Terms of Service</li>
+        </div>
+        
+        <div class="footer-col">
+            <h3>Our Capabilities</h3>
+            <li>Road Construction</li>
+            <li>Equipment Supply</li>
+            <li>Infrastructure Development</li>
+            <li>Safety and Compliance</li>
+        </div>
+        
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Project Portfolio</li>
+            <li>Industry Insights</li>
+            <li>Expert Team</li>
+            <li>Safety Guidelines</li>
+        </div>
+        
+        <div class="footer-col">
+            <h3>News Letter</h3>
+            <p>You can trust us. We only send important information.</p>
+            <div class="subscribe">
+                <form id="subscribe-form">
+                    <input type="email" name="email" placeholder="Your Email address" required>
+                    <button type="submit" class="yellow">Subscribe</button>
+                </form>
+            </div>
+            
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved || Powered By Paul Bangison Mubanga</p>
+
+            <div class="pro-links">
+                <a href="https://web.facebook.com/MwanamfumuCotractorsZambiaLimited/?_rdc=1&_rdr" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/official_gideon_mwanamfumu_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://x.com/Mwanamfumu4/status/1196775664336220160" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://zm.linkedin.com/in/gideon-mulubwa-52b46224b" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+     </footer>
+
+     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+     <script>
+        // Navigation menu toggle
+        document.getElementById('menu-btn').addEventListener('click', function () {
+            document.querySelector('nav .navigation ul').classList.add('active');
+        });
+        document.getElementById('menu-close').addEventListener('click', function () {
+            document.querySelector('nav .navigation ul').classList.remove('active');
+        });
+
+        // Initialize EmailJS
+        (function () {
+            emailjs.init("C6XPLs67LBVK_D1sK");
+        })();
+
+         // NEWSLETTER FORM (fixed)
+  document.getElementById("subscribe-form").addEventListener("submit", function (e) {
+    e.preventDefault();
+    emailjs.sendForm("service_a6gibbz", "template_f323n6d", this)
+      .then(function () {
+        alert("✅ Subscribed successfully!");
+        document.getElementById("subscribe-form").reset();
+      }, function (error) {
+        console.error("FAILED...", error);
+        alert("❌ Subscription failed. Please try again.");
+      });
+  });
+    </script>
+</body>
+
+</html>

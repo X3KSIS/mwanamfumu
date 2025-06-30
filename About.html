@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="index-style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+    <link rel="preload" href="images/home.jpg" as="image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+       <style>
+        /* Base theme 
+        body {
+            background-color: #ffffff;
+            color: #000000;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+         Dark mode class 
+        body.dark-mode {
+            background-color: #121212;
+            color: #f1f1f1;
+        }
+
+         NAVIGATION BAR STYLES 
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1vw 8vw;
+            background-color: aliceblue;
+            box-shadow: 2px 2px 10px rgb(0 0 0 / 0.15);
+            position: fixed;
+            width: 100%;
+            z-index: 999;
+        }
+
+        nav > a,
+        nav > button.theme-toggle {
+            display: inline-flex;
+            align-items: center;
+        }
+
+        nav > a {
+            margin-right: 1rem;
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: rgb(21, 21, 100);
+            text-decoration: none;
+        }
+
+        .theme-toggle {
+            padding: 0.4rem 0.8rem;
+            font-size: 0.9rem;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            background: #0077cc;
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+
+        .theme-toggle:hover {
+            background: #005fa3;
+        }
+
+        nav .navigation {
+            display: flex;
+            align-items: center;
+        }
+
+        nav .navigation ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav .navigation ul li {
+            margin-left: 30px;
+        }
+
+        nav .navigation ul li a {
+            text-decoration: none;
+            color: rgb(21, 21, 100);
+            font-weight: 500;
+            font-size: 16px;
+            transition: 0.3s ease;
+        }
+
+        nav .navigation ul li a.active,
+        nav .navigation ul li a:hover {
+            color: #FDC93B;
+        }
+
+        Responsive menu button 
+        #menu-btn {
+            display: none;
+        }
+
+        /* Dark mode form inputs (if any) 
+        body.dark-mode input,
+        body.dark-mode textarea {
+            background-color: #333;
+            color: #fff;
+            border: 1px solid #555;
+        } */
+    </style>
+
+</head>
+
+<body>
+    <!--Navigation Bar-->
+
+    <nav>
+        <a href="index.html"><p>MWANA MFUMU</p></a>
+                <!-- Dark Mode Toggle Button 
+        <button id="theme-toggle" class="theme-toggle">🌙 Dark Mode</button> -->
+
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a class="active" href="#">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu bar icon.png" alt="">
+        </div>
+    </nav>
+
+    <!--About Section-->
+
+    <section id="about-home">
+        <h2>About Mwana Mfumu Contractors Zambia Limited</h2>
+    </section>
+
+    <section id="about-container">
+        <div class="about-img">
+            <img src="images/banks.jpg" alt="">
+        </div>
+
+        <div class="about-text">
+            <h2>About Us</h2>
+            <h4>Your trusted partner in construction, equipment supply, and mining accessories.</h4>
+            <p>
+                Mwana Mfumu Contractors Zambia Limited is a leading provider of comprehensive solutions in the construction, equipment supply, and mining industries. With a strong commitment to quality, safety, and innovation, we have established ourselves as a trusted partner in delivering excellence across all our projects. Our team of experienced professionals works tirelessly to ensure that every project is completed on time, within budget, and to the highest standards of quality. Whether you need road construction, infrastructure development, or specialized mining accessories, we are here to meet your needs and exceed your expectations.
+            </p>
+        </div>
+    </section>
+
+    <!--Our Aim Section-->
+    <section id="aim">
+        <h1>Our Aim</h1>
+        <p>To be the most reliable and efficient provider of construction, equipment, and mining solutions in Zambia.</p>
+        <div class="fea-base">
+            Our mission is to deliver top-quality services and products that meet the evolving needs of our clients while maintaining the highest standards of safety and sustainability. We strive to foster long-term relationships with our clients by consistently providing innovative solutions and exceptional service.
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-col">
+            <h3>Our Core Products</h3>
+            <li>PPE</li>
+            <li>Bearings</li>
+            <li>Pumps and Valves</li>
+            <li>Mining Accessories</li>
+        </div>
+        
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Our Services</li>
+            <li>Projects</li>
+            <li>About Us</li>
+            <li>Terms of Service</li>
+        </div>
+        
+        <div class="footer-col">
+            <h3>Our Capabilities</h3>
+            <li>Road Construction</li>
+            <li>Equipment Supply</li>
+            <li>Infrastructure Development</li>
+            <li>Safety and Compliance</li>
+        </div>
+        
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Project Portfolio</li>
+            <li>Industry Insights</li>
+            <li>Expert Team</li>
+            <li>Safety Guidelines</li>
+        </div>
+        
+        <div class="footer-col">
+            <h3>News Letter</h3>
+            <p>You can trust us. We only send important information.</p>
+            <div class="subscribe">
+                <form id="subscribe-form">
+                    <input type="email" name="email" placeholder="Your Email address" required>
+                    <button type="submit" class="yellow">Subscribe</button>
+                </form>
+            </div>
+            
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved || Powered By Paul Bangison Mubanga</p>
+
+            <div class="pro-links">
+                <a href="https://web.facebook.com/GideonBanksMwanamfumu" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/official_gideon_mwanamfumu_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://x.com/Mwanamfumu4/status/1196775664336220160" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://zm.linkedin.com/in/gideon-mulubwa-52b46224b" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+      <script>
+
+        /* Nav Bar Script */
+       $(document).ready(function() {
+            $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active');
+            });
+            $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active');
+            });
+        });
+
+        // Initialize EmailJS
+        (function () {
+            emailjs.init("C6XPLs67LBVK_D1sK");
+        })();
+
+         // NEWSLETTER FORM (fixed)
+  document.getElementById("subscribe-form").addEventListener("submit", function (e) {
+    e.preventDefault();
+    emailjs.sendForm("service_a6gibbz", "template_f323n6d", this)
+      .then(function () {
+        alert("✅ Subscribed successfully!");
+        document.getElementById("subscribe-form").reset();
+      }, function (error) {
+        console.error("FAILED...", error);
+        alert("❌ Subscription failed. Please try again.");
+      });
+  });
+    </script>
+</body>
+
+</html>
